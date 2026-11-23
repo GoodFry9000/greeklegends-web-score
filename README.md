@@ -13,3 +13,10 @@ browser and works offline once opened.
 - `serve.bat` — local test server on http://localhost:8091/
 
 A link like `?hand=GL01,GL02,GL03&afterlife=GL06&name=Ann` opens a ready hand.
+
+## Score from a photo (AI skill)
+`skills/greeklegends-score/SKILL.md` teaches an AI assistant to score a photo of the cards: hand
+in the top row, Afterlife in the bottom row. It recognises the cards and answers with a link like
+the one above, so the calculator opens with that hand. Give the assistant the photo together with
+the skill (upload the folder as a skill, or link
+https://goodfry9000.github.io/greeklegends-web-score/skills/greeklegends-score/SKILL.md).
